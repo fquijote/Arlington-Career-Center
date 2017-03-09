@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Franklin's Homepage</title>
+    <style type="text/css">
+@import url(css/style1.css);
+h1 {
+  color: black;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h2 {
+  color: darkgrey;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+li, a {
+  color: purple;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h1, footer {
+  text-align: center;
+}
+footer {
+  margin-top: 400px;
+}
+footer a + a {
+  margin-left: 5px;
+}
+footer a, footer a:visited {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px dashed #000;
+}
+    </style>
+    <body>
+      <main>
+      <h1>Journal Week 6</h1>
+      <h2>Day 1</h2>
+      <ul>
+        <li>Investigation&#58; Learning the fundamentals in Git Hub</li>
+        <li>Reflection&#58; I learned how to create a empty repository or reinitialize one with the command, <code>git init</code>, which will get into chosen directory.</li>
+        <li>Experimentation&#58;Execute the following command, gitinit, to initialize a new repository.</li>
+      </ul>
+      <h2>Day 2</h2>
+      <ul>
+        <li>Investigation&#58;</li>
+        <li>Reflection&#58;</li>
+        <li>Experimentation&#58;</li>
+      </ul>
+      <h2>Day 3</h2>
+      <ul>
+        <li>Focused on finishing the CIW lesson 5 quiz and studying before taking it.</li>
+      </ul>
+      <h2>Day 4</h2>
+      <ul>
+        <li>Was not present on this day due to transportational issues</li>
+      </ul>
+      <h2>Day 5</h2>
+      <ul>
+        <li>Investigation&#58; Connect to Rackspace port 9999 and manually configure it through Mozilla Firefox advanced network settings.</li>
+        <li>Reflection&#58; Need to open bash and login with <code>ssh -D 9999 students.gctaa.net</code>, then configure within Mozilla Firefox</li>
+        <li>Experimentation&#58; 
+        <br>
+        1. First login to bash and type &#34;<code>ssh -D 9999</code>&#34; which will direct traffic to a port &#40;can be any number between 1 and 10&#41;
+        <br>
+        2. Next you combine &#34;<code>ssh -D 9999 students.gctaa.net</code>&#34; which will normally login to rackspace, but will connect you to texas server.
+        <br>
+        3. Then you open up Mozilla Firefox, go to settings, Advanced network settings, then manual configuration.
+        Locate the SOCKS and insert <code>localhost</code> if not already. Then you also check the port number and make sure it's <code>9999</code>.
+
+      </main>
+      <footer>
+        <a href="http://validator.w3.org/check/referer">
+          <strong> HTML </strong> Valid! </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+          <strong> CSS </strong> Valid! </a> 
+      </footer>
+    </body>
+</html>
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Franklin's Homepage</title>
+    <style type="text/css">
+@import url(css/style1.css);
+h1 {
+  color: black;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h2 {
+  color: darkgrey;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+li, a {
+  color: purple;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h1, footer {
+  text-align: center;
+}
+footer {
+  margin-top: 400px;
+}
+footer a + a {
+  margin-left: 5px;
+}
+footer a, footer a:visited {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px dashed #000;
+}
+    </style>
+    <body>
+      <main>
+    <h1>Journal Week 5</h1>
+    <h2>Day 1</h2>
+    <ul>
+      <li>Investigation&#58; Trying to format the text and picture from Mary Jackson in Equinteros's website to go between the rounded border </li>
+      <br><br>
+      <li>Reflection&#58;Came up with the idea of moving the padding with <code>Padding-left</code></li>
+      <br><br>
+      <li>Experimentation&#58;Experimented by testing padding-left at 3.0 pixels</li>
+    </ul>
+    <h2>Day 2</h2>
+    <ul>
+      <li>Investigation&#58;Discovering scripting languages and explain their functionality in Web development.</li>
+      <li>Reflection&#58;Only have knowledge about HTML5, CSS,  and starting to get deeper into JavaScript. </li>
+      <li>Experimentation&#58;Started a try it yourself in the website, <a href="https://www.w3schools.com/js/default.asp">Click Here!</a>, to try out my first Javascript. Made a functioning button&#58; 
+
+
+            <button type="button"
+                    onclick="document.getElementById('demo').innerHTML = Date()">
+              Click me to display Date and Time.</button>
+
+            <p id="demo"></p>
+
+    </ul>
+    <h2>Day 3</h2>
+    <ul>
+      <li>Investigation&#58; Embedding JavaScript into an HTML file</li>
+      <li>Reflection&#58;CSS doesn't need to have the script tags while HTML does.</li>
+      <li>Experimentation&#58; Tried an example&#58; 
+          &#60;script&#62;
+          <code>Javascript code goes here</code>
+      &#60;&#47;script&#62;</li>
+    </ul>
+    <h2>Day 4</h2>
+    <ul>
+      <li>Investigation&#58;Discovering what is Inline scripting</li>
+      <li>Reflection&#58;Inline uses event attributes scripted directly to HTML element tags to call function that are specified elsewhere in &#60;script&#62; tags.</li>
+      <li>Experimentation&#58; <a href="#" onMouseOver="helloFunction();">Click Here</a></li>
+    </ul>
+    
+
+      </main>
+     <footer>
+      <a href="http://validator.w3.org/check/referer">
+        <strong> HTML </strong> Valid! </a>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+        <strong> CSS </strong> Valid! </a> 
+      </footer>
+    </body>
+</html>
+
